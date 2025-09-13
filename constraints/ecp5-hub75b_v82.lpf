@@ -1,0 +1,74 @@
+# ecp5-hub75b - Versao 8.2
+
+
+# Clock de entrada (oscilador)
+LOCATE COMP "osc25m" SITE "P6";
+IOBUF PORT "osc25m" IO_TYPE=LVCMOS33;
+
+# Botão de entrada (unico)
+LOCATE COMP "button" SITE "R7";
+IOBUF PORT "button" IO_TYPE=LVCMOS33;
+
+# LED de saida (unico)
+LOCATE COMP "led" SITE "T6";
+IOBUF PORT "led" OPENDRAIN=ON IO_TYPE=LVCMOS33;
+
+
+
+# ======== UART ========
+# J8 -> Pin1 = D16 | Pin2 = E15
+LOCATE COMP "uart0_txd" SITE "XX";
+IOBUF PORT "uart0_txd" IO_TYPE=LVCMOS33;
+
+LOCATE COMP "uart0_rxd" SITE "XX";
+IOBUF PORT "uart0_rxd" IO_TYPE=LVCMOS33;
+
+
+
+# ======== ETH ========
+#----------------------------------------
+# RGMII PHY - FPGA Pin Mapping
+#----------------------------------------
+# PHY Reset (output)
+LOCATE COMP "rgmii_rst_n" SITE "R6";
+IOBUF PORT "rgmii_rst_n" OPENDRAIN=ON IO_TYPE=LVCMOS33;
+
+# MDIO / MDC
+LOCATE COMP "rgmii_mdc" SITE "R5";
+IOBUF PORT "rgmii_mdc" IO_TYPE=LVCMOS33;
+
+LOCATE COMP "rgmii_mdio" SITE "T4";
+IOBUF PORT "rgmii_mdio" IO_TYPE=LVCMOS33;
+
+# RGMII TX
+LOCATE COMP "rgmii_tx_clk" SITE "L1";
+IOBUF PORT "rgmii_tx_clk" IO_TYPE=LVCMOS33;
+
+LOCATE COMP "rgmii_txd[0]" SITE "M2";
+IOBUF PORT "rgmii_txd[0]" IO_TYPE=LVCMOS33;
+LOCATE COMP "rgmii_txd[1]" SITE "M1";
+IOBUF PORT "rgmii_txd[1]" IO_TYPE=LVCMOS33;
+LOCATE COMP "rgmii_txd[2]" SITE "P1";
+IOBUF PORT "rgmii_txd[2]" IO_TYPE=LVCMOS33;
+LOCATE COMP "rgmii_txd[3]" SITE "R1";
+IOBUF PORT "rgmii_txd[3]" IO_TYPE=LVCMOS33;
+
+LOCATE COMP "rgmii_tx_ctl" SITE "L2";
+IOBUF PORT "rgmii_tx_ctl" IO_TYPE=LVCMOS33;
+
+# RGMII RX
+LOCATE COMP "rgmii_rx_clk" SITE "J1";
+IOBUF PORT "rgmii_rx_clk" IO_TYPE=LVCMOS33;
+
+LOCATE COMP "rgmii_rxd[0]" SITE "K2";
+IOBUF PORT "rgmii_rxd[0]" IO_TYPE=LVCMOS33;
+LOCATE COMP "rgmii_rxd[1]" SITE "J3";
+IOBUF PORT "rgmii_rxd[1]" IO_TYPE=LVCMOS33;
+LOCATE COMP "rgmii_rxd[2]" SITE "K1";
+IOBUF PORT "rgmii_rxd[2]" IO_TYPE=LVCMOS33;
+LOCATE COMP "rgmii_rxd[3]" SITE "K3";
+IOBUF PORT "rgmii_rxd[3]" IO_TYPE=LVCMOS33;
+
+LOCATE COMP "rgmii_rx_ctl" SITE "J2";
+IOBUF PORT "rgmii_rx_ctl" IO_TYPE=LVCMOS33;
+# ======== ETH ========
