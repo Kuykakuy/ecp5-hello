@@ -1,0 +1,23 @@
+BLOCK RESETPATHS;
+BLOCK ASYNCPATHS;
+LOCATE COMP "sys_clock" SITE "X";
+LOCATE COMP "sys_reset" SITE "X";
+LOCATE COMP "rgmii_clocks_tx" SITE "X";
+LOCATE COMP "rgmii_clocks_rx" SITE "X";
+LOCATE COMP "rgmii_rst_n" SITE "X";
+LOCATE COMP "rgmii_int_n" SITE "X";
+LOCATE COMP "rgmii_mdio" SITE "X";
+LOCATE COMP "rgmii_mdc" SITE "X";
+LOCATE COMP "rgmii_rx_ctl" SITE "X";
+LOCATE COMP "rgmii_rx_data[0]" SITE "X";
+LOCATE COMP "rgmii_rx_data[1]" SITE "X";
+LOCATE COMP "rgmii_rx_data[2]" SITE "X";
+LOCATE COMP "rgmii_rx_data[3]" SITE "X";
+LOCATE COMP "rgmii_tx_ctl" SITE "X";
+LOCATE COMP "rgmii_tx_data[0]" SITE "X";
+LOCATE COMP "rgmii_tx_data[1]" SITE "X";
+LOCATE COMP "rgmii_tx_data[2]" SITE "X";
+LOCATE COMP "rgmii_tx_data[3]" SITE "X";
+FREQUENCY PORT "eth_rx_clk" 125.0 MHz;
+
+FREQUENCY PORT "eth_tx_clk" 125.0 MHz;

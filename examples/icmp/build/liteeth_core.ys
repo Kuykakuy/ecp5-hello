@@ -1,0 +1,8 @@
+verilog_defaults -push
+verilog_defaults -add -defer
+read_verilog /src/build/liteeth_core.v
+verilog_defaults -pop
+attrmap -tocase keep -imap keep="true" keep=1 -imap keep="false" keep=0 -remove keep=0
+
+synth_ecp5  -top liteeth_core
+write_json  liteeth_core.json

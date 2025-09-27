@@ -1,0 +1,14 @@
+# PHY --------------------------------------------------------------------------
+phy          : LiteEthECP5PHYRGMII
+phy_tx_delay : 0e-9
+phy_rx_delay : 2e-9
+device       : LFE5U-25F-6BG256C
+vendor       : lattice
+toolchain    : trellis
+
+# Core -------------------------------------------------------------------------
+clk_freq        : 125e6
+core            : udp
+
+mac_address     : 0x10e2d5000000
+ip_address      : 172.30.0.1
